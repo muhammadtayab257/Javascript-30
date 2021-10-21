@@ -1,4 +1,4 @@
-import { ages, ages2, inventors, people } from "./data.js";
+import { ages, inventors } from "./data.js";
 
 // 1: =====ForEach array.forEach(callback(item, index, array))=====
 // The forEach() method executes a provided function once for each array element.

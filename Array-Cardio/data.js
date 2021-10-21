@@ -3,11 +3,16 @@ const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
 const ages2 = [
   55, 66, 77, 88, 99, 111, 122, 133, 144, 155, 166, 177, 188, 199, 211,
 ];
-const numbers = [1,2,3,4,5,6,7,8,9,10]
-let kvArray = [
-  { key: 1, value: 10 },
-  { key: 2, value: 20 },
-  { key: 3, value: 30 },
+const primeArray = [-3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const names = ["tayyab", "hafsa", "saad", "hamza", "bilal", "ali"];
+const words = [
+  "spray",
+  "limit",
+  "elite",
+  "exuberant",
+  "destruction",
+  "present",
 ];
 
 const inventors = [
@@ -25,6 +30,33 @@ const inventors = [
   { first: "Hanna", last: "Hammarström", year: 1829, passed: 1909 },
 ];
 
+const matrixPeoples = [
+  {
+    name: " Jolie",
+    age: 80,
+  },
+  {
+    name: " Jones",
+    age: 2,
+  },
+  {
+    name: " Hilton",
+    age: 5,
+  },
+  {
+    name: " West",
+    age: 16,
+  },
+  {
+    name: " Ziroll",
+    age: 100,
+  },
+];
+let kvArray = [
+  { key: 1, value: 10 },
+  { key: 2, value: 20 },
+  { key: 3, value: 30 },
+];
 const people = [
   "Bernhard, Sandra",
   "Bethea, Erin",
@@ -69,4 +101,28 @@ const people = [
   "Biondo, Frank",
 ];
 
-export { ages, ages2,numbers, inventors, people, kvArray };
+let invalidArr = [
+  { id: 15 },
+  { id: -1 },
+  { id: 0 },
+  { id: 3 },
+  { id: 12.2 },
+  {},
+  { id: null },
+  { id: NaN },
+  { id: "undefined" },
+];
+
+export {
+  ages,
+  ages2,
+  numbers,
+  names,
+  inventors,
+  matrixPeoples,
+  people,
+  kvArray,
+  words,
+  primeArray,
+  invalidArr
+};
