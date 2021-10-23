@@ -34,22 +34,27 @@ const matrixPeoples = [
   {
     name: " Jolie",
     age: 80,
+    member: true,
   },
   {
     name: " Jones",
     age: 2,
+    member: false,
   },
   {
     name: " Hilton",
     age: 5,
+    member: true,
   },
   {
     name: " West",
     age: 16,
+    member: false,
   },
   {
     name: " Ziroll",
     age: 100,
+    member: false,
   },
 ];
 let kvArray = [

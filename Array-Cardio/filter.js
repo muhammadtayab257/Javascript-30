@@ -54,4 +54,50 @@ const filteredById = (item) => {
 };
 
 const arrByID = invalidArr.filter(filteredById);
-console.log(arrByID);
+// console.log(arrByID);
+
+// 4: Given an array of numbers, return a new array that has only the numbers that are 5 or greater
+
+const filterByAge = (number) => {
+  if (number > 40) {
+    return true;
+  }
+  false;
+};
+const arrByAge = ages.filter(filterByAge);
+const arrByAge1 = ages.filter((age) => age >= 40);
+// console.log(arrByAge);
+
+// 5: Given an array of numbers, return a new array that only includes the even numbers.
+const filterByEven = (number) => {
+  if (number % 2 === 0) {
+    return true;
+  }
+  return false;
+};
+const arrByEven = ages.filter(filterByEven);
+const arrByEven1 = ages.filter((age) => age % 2 === 0);
+// console.log(arrByEven1);
+
+// 6:  Given an array of strings, return a new array that only includes those that are 5 characters or fewer in length
+const filterByFiveString = (string) => {
+  if (string.length < 5) {
+    return true;
+  }
+  return false;
+};
+const arrByFive = names.filter(filterByFiveString);
+const arrByFive1 = names.filter((name) => name.length < 5);
+// console.log(arrByFive1);
+
+// 7: Given an array of people objects, return a new array that has filtered out all those who don't belong to the club
+
+const filterByMembership = (members) => {
+  if (members.member === true) return true;
+  return false;
+};
+const arrByMemberTrue = matrixPeoples.filter(filterByMembership);
+const arrByMemberTrue1 = matrixPeoples.filter(
+  (members) => members.member === true
+);
+// console.log(arrByMemberTrue1);
