@@ -101,3 +101,22 @@ const arrByMemberTrue1 = matrixPeoples.filter(
   (members) => members.member === true
 );
 // console.log(arrByMemberTrue1);
+
+// 8: Searching in array
+const filterBySearch = (arr, query) => {
+  return arr.filter(element => {
+    return   element.toLowerCase().indexOf(query.toLowerCase())  !== -1;
+  })
+} 
+console.log(filterBySearch(names, "Tay"));
+
+// 
+
+const userInput  = document.querySelector("#usersSearch");
+const userListMain  = document.querySelector("#users-list ul");
+
+
+
+
+
+console.log(userListMain);
