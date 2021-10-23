@@ -1,18 +1,6 @@
-import {
-  ages,
-  ages2,
-  numbers,
-  names,
-  inventors,
-  matrixPeoples,
-  people,
-  kvArray,
-  words,
-  primeArray,
-  invalidArr,
-} from "./data.js";
+import { ages, names, matrixPeoples, words, invalidArr } from "./data.js";
 
-// 1: ===== map((element, index, array) => { ... })
+// 1: ===== filter((element, index, array) => { ... })
 /*The filter() method creates a new array with all elements that pass 
   the test implemented by the provided function.*/
 
@@ -105,27 +93,7 @@ const arrByMemberTrue1 = matrixPeoples.filter(
 // 8: Searching in array
 const filterBySearch = (arr, query) => {
   return arr.filter((element) => {
-    return element.toLowerCase().indexOf(query.toLowerCase()) !== -1;
+    return element.toLowerCase().includes(query.toLowerCase());
   });
 };
-console.log(filterBySearch(names, "Tay"));
-
-//
-
-const userInput = document.querySelector("#usersSearch");
-const userListMain = document.querySelector("#users-list ul");
-
-document.addEventListener("DOMContentLoaded", () => {
-  names.forEach((name) => {
-    let li = document.createElement("li");
-    li.innerHTML = name;
-    userListMain.appendChild(li);
-  });
-
-  // Add event on keyUp
-  userInput.addEventListener("keydown", (e) => {
-    const inputValue = e.target.value;
-
-    const filterBySearch = (names, inputValue) => {};
-  });
-});
+// console.log(filterBySearch(names, "Tay"));

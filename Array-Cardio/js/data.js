@@ -5,7 +5,18 @@ const ages2 = [
 ];
 const primeArray = [-3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const names = ["tayyab", "hafsa", "saad", "hamza", "bilal", "ali"];
+// const names = ["tayyab", "hafsa", "saad", "hamza", "bilal", "ali", "hafzaa", "hafiz"];
+const names = [
+  "tayyab",
+  "hafsa",
+  "saad",
+  "hamza",
+  "bilal",
+  "ali",
+  "hafzaa",
+  "hafiz",
+  "xxx",
+];
 const words = [
   "spray",
   "limit",
@@ -129,5 +140,5 @@ export {
   kvArray,
   words,
   primeArray,
-  invalidArr
+  invalidArr,
 };
