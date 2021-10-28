@@ -11,7 +11,7 @@ const roots = ages.map((element, index) => {
 
 // console.log(roots);
 
-// EXCERSICE
+// EXCERSICES
 // 1: Make an array of numbers that are doubles of the first array
 const doubleNumber = numbers.map((arr) => arr * 2);
 console.log(doubleNumber);

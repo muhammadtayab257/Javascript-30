@@ -1,3 +1,5 @@
+"use strict";
+
 import { ages } from "./data.js";
 
 // 1: ===== rarray.reduce(function(total, currentValue, currentIndex, arr), initialValue)
