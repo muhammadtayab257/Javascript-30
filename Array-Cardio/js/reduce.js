@@ -1,4 +1,3 @@
-"use strict";
 
 import { ages } from "./data.js";
 

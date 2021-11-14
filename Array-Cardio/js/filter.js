@@ -1,4 +1,4 @@
-import { ages, names, matrixPeoples, words, invalidArr } from "./data.js";
+import { ages, names, matrixPeoples, words, invalidArr,numbers } from "./data.js";
 
 // 1: ===== filter((element, index, array) => { ... })
 /*The filter() method creates a new array with all elements that pass 
@@ -97,3 +97,6 @@ const filterBySearch = (arr, query) => {
   });
 };
 // console.log(filterBySearch(names, "Tay"));
+
+
+

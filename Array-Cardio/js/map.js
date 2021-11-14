@@ -45,3 +45,5 @@ console.log(evens); //[false, true, false, true]
 
 const evens1 = numbers1.filter((item) => item % 2 === 0);
 console.log(evens1); // [2, 4]
+
+

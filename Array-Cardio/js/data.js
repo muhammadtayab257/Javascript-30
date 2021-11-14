@@ -5,6 +5,7 @@ const ages2 = [
 ];
 const primeArray = [-3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const animals = ["ant", "bison", "camel", "duck", "elephant"];
 // const names = ["tayyab", "hafsa", "saad", "hamza", "bilal", "ali", "hafzaa", "hafiz"];
 const names = [
   "tayyab",
@@ -39,6 +40,13 @@ const inventors = [
   { first: "Sarah E.", last: "Goode", year: 1855, passed: 1905 },
   { first: "Lise", last: "Meitner", year: 1878, passed: 1968 },
   { first: "Hanna", last: "Hammarström", year: 1829, passed: 1909 },
+];
+
+const users = [
+  { firsrName: "John", lastnName: "Cena", age: 26 },
+  { firsrName: "Elon", lastnName: "Musk", age: 50 },
+  { firsrName: "Donald", lastnName: "Trump", age: 75 },
+  { firsrName: "Tayyab", lastnName: "Siraj", age: 100 },
 ];
 
 const matrixPeoples = [
@@ -141,4 +149,6 @@ export {
   words,
   primeArray,
   invalidArr,
+  animals,
+  users
 };
