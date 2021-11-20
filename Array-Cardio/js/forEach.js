@@ -28,3 +28,8 @@ inventors.forEach((item, index) => {
   }
   console.log(item);
 });
+
+
+
+
+
