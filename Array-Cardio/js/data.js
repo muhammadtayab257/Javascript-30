@@ -137,6 +137,13 @@ let invalidArr = [
   { id: "undefined" },
 ];
 
+let stocks = {
+  Fruit: ["strawberry", "grapes", "banana", "apple"],
+  liquid: ["water", "ice"],
+  holders: ["cone", "cup", "stick"],
+  toppings: ["chocolate", "peanuts"] 
+};
+
 export {
   ages,
   ages2,
@@ -150,5 +157,6 @@ export {
   primeArray,
   invalidArr,
   animals,
-  users
+  users,
+  stocks
 };
